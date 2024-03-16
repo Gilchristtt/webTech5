@@ -1,6 +1,6 @@
 <?php
 include "../settings/connection.php"; 
-
+ 
 // Fetch all booking information
 $query = "SELECT booking_id, project_type, consultation_date, consultation_time, client_id FROM booking ORDER BY consultation_date, consultation_time ASC";
 $result = $conn->query($query);

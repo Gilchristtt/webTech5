@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "cs341webtech";
 $dbname = "interiorDesign";
 
 // Create connection
